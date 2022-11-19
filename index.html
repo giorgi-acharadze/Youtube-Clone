@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./styles/general.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/video.css">
+    <link rel="stylesheet" href="./styles/sidebar.css">
+    <title>Youtube.com clone</title>
+    <link rel="icon" type="image/x-icon" href="/icons/YouTube-Icon-browser.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg"> 
+        <a href="https://www.youtube.com/">
+          <img class="youtube-logo" src="icons/youtube-logo.svg">
+        </a>
+      </div>
+      <div class="middle-section"> 
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+          <div class="tooltip">Search with you voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-icon-contaienr">
+          <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+          <div class="tooltip">YouTube apps</div>
+        </div>
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg">
+          <div class="notifications-count">5</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <img class="current-user-picture" src="channel-puctures/giushki_profile.jpg">
+      </div>
+    </div>
+    <div class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg">
+        <a class="home-link" href="https://www.youtube.com/">
+          <div>Home</div>
+        </a>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg">
+        <a class="explore-link" href="https://www.youtube.com/feed/explore">
+          <div>Explore</div>
+        </a>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg">
+        <a class="subscriptions-link" href="https://www.youtube.com/feed/subscriptions">
+          <div>Subscriptions</div>
+        </a>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg">
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg">
+        <div>Library</div>
+      </div>
+    </div>
+    
+     
+     <div class="video-grid">
+      <div class="video-preview">
+
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=gsNob3dCjgk" target="_blank">
+            <img class="thumbnail" src="thumbnails/hq720.webp">
+          </a>
+         <div class="video-time">8:56</div>
+ 
+        </div>
+ 
+         <div class="video-info-grid">
+           <div class="channel-picture">
+             <a href="https://www.youtube.com/channel/UC5deKm1RRbcoUIuLuSCFprg">
+              <img class="profile-picture" src="channel-puctures/unnamed.jpg" >
+             </a>
+           </div>
+   
+           <div class="video-info">
+             <a class="title-link" href="https://www.youtube.com/watch?v=gsNob3dCjgk" target="_blank">
+              <p class="video-title">
+                I Asked Millionaires How They Got Rich
+              </p>
+             </a>
+             
+              <p class="video-author">
+                Jordan Welch
+              </p>
+              
+             <p class="video-stats">
+         
+              407K views &#183;2 months ago
+               
+             </p>
+           </div>
+ 
+          </div>
+       
+       </div>
+ 
+       <div class="video-preview">
+         <div class="thumbnail-row">
+           <a href="https://www.youtube.com/shorts/iULy735g7JE" target="_blank">
+            <img class="thumbnail" src="thumbnails/hqdefault.webp">
+           </a>
+           <div class="video-time">2:59</div>
+     
+         </div>
+         <div class="video-info-grid">
+           <div class="channel-picture">
+             <a href="https://www.youtube.com/c/BasementGang">
+              <img class="profile-picture" src="channel-puctures/channels4_profile.jpg">
+             </a>
+           </div>
+           <div class="video-info">
+            <a class="title-link" href="https://www.youtube.com/shorts/iULy735g7JE" target="_blank">
+              <p class="video-title">
+                The gang plays blindfolded dodgeball&#33;&#33;&#33;
+              </p>
+             </a>
+             <p class="video-author">
+               Basement Gang
+             </p>
+    
+             <p class="video-stats">
+         
+              13K views &#183;1 hour ago
+               
+             </p>
+             
+           </div>
+ 
+         </div>
+ 
+       </div>
+ 
+       <div class="video-preview">
+ 
+         <div class="thumbnail-row">
+           <a href="https://www.youtube.com/watch?v=n1khwOk5dN8" target="_blank">
+            <img class="thumbnail" src="thumbnails/jb.webp">
+           </a>
+          <div class="video-time">3:32</div>
+  
+         </div>
+  
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/channel/UCIwFjwMjI0y7PDBVEO9-bkQ">
+                <img class="profile-picture" src="channel-puctures/jb_profile.jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a class="title-link" href="https://www.youtube.com/watch?v=n1khwOk5dN8" target="_blank">
+                <p class="video-title">
+            
+                  Justin Bieber - Honest ft. Don Toliver
+                </p>
+               </a>
+          
+              <p class="video-author">
+                Justin Bieber  &#9834;
+                
+              </p>
+          
+              <p class="video-stats">
+          
+                7M views &#183;4 days ago
+                
+              </p>
+            </div>
+              
+            </div>
+    
+          </div>
+  
+  
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=UtnsWzaoRtg" target="_blank">
+              <img class="thumbnail" src="thumbnails/mr.bst.webp">
+            </a>
+            <div class="video-time">11:17</div>
+      
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/channel/UCX6OQ3DkcsbYNE6H8uQQuVA">
+                <img class="profile-picture" src="channel-puctures/mrbst_profile.jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a class="title-link" href="https://www.youtube.com/watch?v=UtnsWzaoRtg" target="_blank">
+                <p class="video-title">
+            
+                  World's Largest Game Of Dodgeball
+                </p>
+               </a>
+          
+              <p class="video-author">
+                MrBeast
+                
+              </p>
+          
+              <p class="video-stats">
+          
+                49M views &#183;2 years ago
+                
+              </p>
+              
+            </div>
+  
+          </div>
+  
+        </div>
+         
+ 
+        <div class="video-preview">
+         <div class="thumbnail-row">
+           <a href="https://www.youtube.com/watch?v=SdUCsJMrnuc" target="_blank">
+            <img class="thumbnail" src="thumbnails/james.webp">
+           </a>
+          <div class="video-time">4:35</div>
+  
+         </div>
+  
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/channel/UCJ0uqCI0Vqr2Rrt1HseGirg">
+                <img class="profile-picture" src="channel-puctures/james_profile.jpg">
+              </a>
+            </div>
+    
+            <div class="video-info">
+              <a class="title-link" href="https://www.youtube.com/watch?v=SdUCsJMrnuc" target="_blank">
+                <p class="video-title">
+                  Trump&#39;s Gifting Suite Is James Corden-Approved
+                </p>
+               </a>
+              <p class="video-author">
+                The Late Late Show with James Corden 
+                
+              </p>
+          
+              <p class="video-stats">
+          
+                11K views &#183;4 hours ago
+                
+              </p>
+            </div>
+  
+          </div>
+  
+        </div>
+  
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=gMA5ybO46iU" target="_blank">
+              <img class="thumbnail" src="thumbnails/dbillions.webp">
+            </a>
+            <div class="video-time">9:29</div>
+      
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/channel/UC4-7BXqvKC20gVA6-SOP7BA">
+                <img class="profile-picture" src="channel-puctures/dbillions_profile.jpg">
+              </a>
+            </div>
+    
+            <div class="video-info">
+              <a class="title-link" href="https://www.youtube.com/watch?v=gMA5ybO46iU" target="_blank">
+                <p class="video-title">
+            
+                  Making cakes |  D Billions VLOG English
+                </p>
+              </a>
+              <p class="video-author">
+                D Billions VLOG English
+                
+              </p>
+          
+              <p class="video-stats">
+          
+                73K views &#183;1 month ago
+                
+              </p>
+              
+            </div>
+  
+          </div>
+  
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=401hZy6Hipw" target="_blank">
+              <img class="thumbnail" src="thumbnails/kanye.webp">
+            </a>
+            <div class="video-time">2:40</div>
+      
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/channel/UCs6eXM7s8Vl5WcECcRHc2qQ">
+                <img class="profile-picture" src="channel-puctures/kanye_profile.jpg">
+              </a>
+            </div>
+    
+            <div class="video-info">
+              <a class="title-link" href="https://www.youtube.com/watch?v=401hZy6Hipw" target="_blank">
+                <p class="video-title">
+                  Kanye West - Life Of The Party
+                </p>
+              </a>
+              <p class="video-author">
+                Kanye West   &#9834;
+                
+              </p>
+          
+              <p class="video-stats">
+          
+                2M views &#183;1 day ago               
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=wCo6-VGFGBA" target=_blank>
+              <img class="thumbnail" src="thumbnails/funny.webp">
+            </a>
+            <div class="video-time">9:19</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+               <a href="https://www.youtube.com/channel/UCCrXAdjvN23Rwr2XrHRrWbw">
+                <img class="profile-picture" src="channel-puctures/who_profile.jpg">
+               </a>
+            </div>
+            <div class="video-info">
+              <a class="title-link" href="https://www.youtube.com/watch?v=wCo6-VGFGBA" target="_blank">
+                <p class="video-title">
+                  10 Funniest Moments In Talk Show History
+                </p>
+              </a>
+                 
+              <p class="video-author">
+                Who is there?
+                
+              </p>
+          
+              <p class="video-stats">
+          
+                2.9M views &#183;9 months ago
+                
+              </p>
+              
+            </div>
+  
+          </div>
+        </div>
+
+
+        <div class="video-preview">
+
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=0NzlbBmkM3E" target="_blank">
+              <img class="thumbnail" src="thumbnails/asap.webp">
+            </a>
+           <div class="video-time">4:54</div>
+   
+          </div>
+   
+           <div class="video-info-grid">
+             <div class="channel-picture">
+               <a href="https://www.youtube.com/channel/UC0KAFLxIiaR_FFNYDL3utGw">
+                <img class="profile-picture" src="channel-puctures/asap_profile.jpg">
+               </a>
+             </div>
+     
+             <div class="video-info">
+               <a class="title-link" href="https://www.youtube.com/watch?v=0NzlbBmkM3E" target="_blank">
+                <p class="video-title">
+                  A$AP Rocky - D.M.B. (Official Video) 
+                </p>
+               </a>
+               
+                <p class="video-author">
+                  ASAPROCKYUPTOWN  &#9834;
+                </p>
+                
+               <p class="video-stats">
+                16M views &#183;11 days ago
+               </p>
+             </div>
+   
+            </div>
+         
+         </div>
+
+         <div class="video-preview">
+
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=65nfbW-27ps" target="_blank">
+              <img class="thumbnail" src="thumbnails/hugo.webp">
+            </a>
+           <div class="video-time">2:39</div>
+   
+          </div>
+   
+           <div class="video-info-grid">
+             <div class="channel-picture">
+               <a href="https://www.youtube.com/channel/UCiEBv40OQ7zB68aK3lltQMg">
+                <img class="profile-picture" src="channel-puctures/hugo_profile.jpg">
+              </a>
+             </div>
+     
+             <div class="video-info">
+               <a class="title-link" href="https://www.youtube.com/watch?v=65nfbW-27ps" target="_blank">
+                <p class="video-title">
+                  AGE 12 TO MARRIED &#8211; I Took A Photo Every Day 
+                </p>
+               </a>
+               
+                <p class="video-author">
+                  Hugo Cornellier
+                </p>
+                
+               <p class="video-stats">
+           
+                224M views &#183;4 years ago
+                 
+               </p>
+             </div>
+   
+            </div>
+         </div>
+
+         <div class="video-preview">
+
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=6fnBOF6Qjz0" target="_blank">
+              <img class="thumbnail" src="thumbnails/factfile.webp">
+            </a>
+           <div class="video-time">11:10</div>
+   
+          </div>
+   
+           <div class="video-info-grid">
+             <div class="channel-picture">
+               <a href="https://www.youtube.com/channel/UCQYqZHRVVWo_CFk2xryfzkg">
+                <img class="profile-picture" src="channel-puctures/factfile_profile.jpg">
+               </a>
+             </div>
+     
+             <div class="video-info">
+               <a class="title-link" href="https://www.youtube.com/watch?v=6fnBOF6Qjz0" target="_blank">
+                <p class="video-title">
+                  10 Bodybuilders Who Took It Too Far 
+                </p>
+               </a>
+               
+                <p class="video-author">
+                  FactFile
+                </p>
+                
+               <p class="video-stats">
+           
+                6M views &#183;1 month ago
+                 
+               </p>
+             </div>
+   
+            </div>
+         </div>
+
+         <div class="video-preview">
+
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=fiHnF41yLrE" target="_blank">
+              <img class="thumbnail" src="thumbnails/zay.webp">
+            </a>
+           <div class="video-time">4:42</div>
+   
+          </div>
+   
+           <div class="video-info-grid">
+             <div class="channel-picture">
+               <a href="https://www.youtube.com/channel/UCrnrU1TskIZtsNWhqs7r4HQ">
+                <img class="profile-picture" src="channel-puctures/zay_profile.jpg">
+               </a>
+             </div>
+     
+             <div class="video-info">
+               <a class="title-link" href="https://www.youtube.com/watch?v=fiHnF41yLrE" target="_blank">
+                <p class="video-title">
+                  Amateur Boxer vs Street Fighter
+                </p>
+               </a>
+               
+                <p class="video-author">
+                  Zay Mania
+                </p>
+                
+               <p class="video-stats">
+           
+                3&#46;1M views &#183;1 month ago
+                 
+               </p>
+             </div>
+   
+            </div>
+         </div>
+     </div>
+
+
+    </body>
+
+</html>
